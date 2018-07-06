@@ -1,6 +1,6 @@
 galaxy_info:
   author: {{ cookiecutter.author_name }}
-  description:  {{ cookiecutter.project }} role for TripleO
+  description:  {{ cookiecutter.project_name }} role for TripleO
   company: Red Hat
   license: Apache 2.0
   min_ansible_version: 2.4
