@@ -1,0 +1,14 @@
+- project:
+    templates:
+      - publish-to-pypi
+    check:
+      jobs:
+        - openstack-tox-linters
+        - tripleo-ci-centos-7-cookiecutter
+    gate:
+      jobs:
+        - openstack-tox-linters
+        - tripleo-cookiecutter
+    post:
+      jobs:
+        - publish-openstack-python-branch-tarball

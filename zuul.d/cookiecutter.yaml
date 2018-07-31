@@ -1,0 +1,10 @@
+---
+# zuul.d/cookiecutter.yaml
+# Zuul layout for TripleO Cookiecutter job.
+
+- job:
+    name: tripleo-ci-centos-7-cookiecutter
+    parent: tripleo-ci-base
+    run: playbooks/cookiecutter/run.yaml
+    nodeset: single-centos-7-node
+    voting: false

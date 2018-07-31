@@ -1,0 +1,9 @@
+---
+- job:
+    name: tox-ansible-lint
+    parent: tox
+    description: |
+        Run ansible-lint against a cookiecutter generated Ansible role.
+    vars:
+      tox_envlist: ansible-lint
+
