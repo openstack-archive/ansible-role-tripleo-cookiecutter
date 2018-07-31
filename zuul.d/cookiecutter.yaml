@@ -1,0 +1,12 @@
+---
+# zuul.d/cookiecutter.yaml
+# Zuul layout for TripleO Cookiecutter job.
+
+- job:
+    name: tripleo-ci-cookiecutter
+    parent: tox
+    description: |
+      Run ansible-lint against a cookiecutter generated Ansible role.
+    vars:
+      tox_envlist: ansible-lint
+
