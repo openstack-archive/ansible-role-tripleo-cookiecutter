@@ -1,0 +1,9 @@
+Code-Review+2: Emilien Macchi <emilien@redhat.com>
+Code-Review+2: Alex Schultz <aschultz@redhat.com>
+Workflow+1: Alex Schultz <aschultz@redhat.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Thu, 02 Aug 2018 00:29:59 +0000
+Reviewed-on: https://review.openstack.org/587654
+Project: openstack/ansible-role-tripleo-cookiecutter
+Branch: refs/heads/master
