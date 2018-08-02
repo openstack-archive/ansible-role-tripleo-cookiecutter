@@ -24,6 +24,10 @@ There are two ways to create the boilerplate for the ansible role.
 
   1. Run `cookiecutter https://git.openstack.org/openstack/ansible-role-tripleo-cookiecutter.git`
 
+## Testing
+
+  1. Run 'tox -eansible-lint' to test any change in the cookiecutter. It will generate a role and make sure it works and lint is fine.
+
 ## What's next
 
 Add any additional tags your role may need to be properly identified on Ansible Galaxy in meta/main.yml.
