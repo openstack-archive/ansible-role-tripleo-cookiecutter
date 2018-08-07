@@ -1,0 +1,9 @@
+Code-Review+2: James Slagle <jslagle@redhat.com>
+Code-Review+2: Alex Schultz <aschultz@redhat.com>
+Workflow+1: Alex Schultz <aschultz@redhat.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Tue, 07 Aug 2018 17:44:26 +0000
+Reviewed-on: https://review.openstack.org/589243
+Project: openstack/ansible-role-tripleo-cookiecutter
+Branch: refs/heads/master
