@@ -17,12 +17,12 @@ There are two ways to create the boilerplate for the ansible role.
 
 ### Locally
 
-  1. Clone locally the [ansible-role-tripleo-cookiecutter](https://git.openstack.org/cgit/openstack/ansible-role-tripleo-cookiecutter/) repository.
+  1. Clone locally the [ansible-role-tripleo-cookiecutter](https://opendev.org/openstack/ansible-role-tripleo-cookiecutter/) repository.
   2. Run `cookiecutter /path/to/cloned/repo`
 
 ### Remotely (ie. using a git repo)
 
-  1. Run `cookiecutter https://git.openstack.org/openstack/ansible-role-tripleo-cookiecutter.git`
+  1. Run `cookiecutter https://opendev.org/openstack/ansible-role-tripleo-cookiecutter.git`
 
 ## Testing
 
